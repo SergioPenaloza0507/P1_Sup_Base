@@ -8,7 +8,7 @@ namespace P1_Sup_Base.Logic
         int baseStrength;
         int baseResistance;
         int hp;
-        //strength + (1 * [(level - 1) * 0.25])
+        
 
         public int Strength { get => (int)Math.Ceiling(baseStrength + (1 * ((Level - 1) * 0.25F))); }
         public int Resistance { get => (int)Math.Ceiling(baseResistance + (1 * ((Level - 1) * 0.25F))); }
