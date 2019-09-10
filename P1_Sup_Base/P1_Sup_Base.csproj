@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logic\Character.cs" />
+    <Compile Include="Logic\Destructible.cs" />
+    <Compile Include="Logic\Hazard.cs" />
+    <Compile Include="Logic\IDamageable.cs" />
+    <Compile Include="Logic\IDamager.cs" />
+    <Compile Include="Logic\TestExtensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
