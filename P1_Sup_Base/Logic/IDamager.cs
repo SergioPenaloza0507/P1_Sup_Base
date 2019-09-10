@@ -2,6 +2,9 @@
 {
     public interface IDamager
     {
-        
+        int Strength { get; }
+        int Resistance { get; }
+
+        void ApplyDamage(IDamageable target);
     }
 }

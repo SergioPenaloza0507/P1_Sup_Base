@@ -5,8 +5,8 @@ namespace P1_Sup_Base.Logic.Tests
     [TestClass()]
     public class UnitTest1
     {
-        /*
-         * Descomentar cuando el código esté completo.
+        
+        // Descomentar cuando el código esté completo.
         // Character that dies with a single hit and only deals 1HP of damage.
         private Character c1 = new Character(1, 1, 0);
 
@@ -110,6 +110,6 @@ namespace P1_Sup_Base.Logic.Tests
 
             // After leveling up, C4 has 3 strength
             Assert.AreEqual(d2Clone.HP, 2);
-        }*/
+        }
     }
 }

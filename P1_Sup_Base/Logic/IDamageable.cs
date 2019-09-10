@@ -2,5 +2,8 @@
 {
     public interface IDamageable
     {
+        int HP { get; set; }
+
+        void ReceiveDamage(int dmg);
     }
 }
